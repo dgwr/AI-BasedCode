@@ -52,7 +52,8 @@ while True:
 
         totalFingers = fingers.count(1)
         print(totalFingers)
-
+    else:
+        totalFingers = 0
         # print(fingers)
 
     h, w, c = overlayList[totalFingers - 1].shape
